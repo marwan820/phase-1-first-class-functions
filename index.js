@@ -1,4 +1,5 @@
-receivesAFunction = (workout) => workout();
+receivesAFunction = (spy) => spy();
+
 
 
 returnsANamedFunction = () => {return receivesAFunction};
