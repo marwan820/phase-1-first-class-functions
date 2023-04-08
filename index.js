@@ -1,4 +1,4 @@
-receivesAFunction = (spy) => spy();
+receivesAFunction = (spy) => {spy()}
 
 
 
