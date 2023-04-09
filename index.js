@@ -1,8 +1,12 @@
-receivesAFunction = (spy) => {spy()}
 
 
 
-returnsANamedFunction = () => {return receivesAFunction};
+const receivesAFunction = spy => spy() 
+
+
+
+
+returnsANamedFunction = () => { return receivesAFunction};
 
 function returnsAnAnonymousFunction(){
 return function(){}
